@@ -1,0 +1,106 @@
+*{
+	font-family: Arial, Verdana;
+}
+body {
+	margin:0;
+	padding:0;
+}
+.topo{
+	height:50px;
+	background-color:#353535;
+}
+.topointerior{
+	width:1000px;
+	margin:auto;
+	color:#FFFFFF;
+}
+.logomarca{
+	float: left;
+	line-height: 50px;
+	margin-top: 6px;
+	vertical-align: middle;
+	image-rendering: optimizeSpeed;
+}
+.menu {
+	float: right;
+}
+.menu ul, .menu li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu li{
+	float: left;
+	padding-right: 7px;
+	padding-left: 7px;
+	line-height: 50px;
+	font-size: 14px;
+}
+.menu li:hover {
+	background-color: #3480c1; 
+}
+.menu li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.banner{
+	height: 300px;
+	background-color: #3480c1; 
+}
+.bannerinterior{
+	width:1000px;
+	margin:auto;
+}
+.banneresquerda{
+	float: left;
+}
+.bannerdireita{
+	margin-right: 40px;
+	float: right;
+}
+.slogan1{
+	color:#FFFFFF;
+	font-size: 48px;
+	margin-top: 60px;
+}
+.slogan2{
+	font-size: 20px;
+	color:#FFFFFF;
+}
+.botao{
+	background-color: #ffc001;
+	width: 282px;
+	height: 56px;
+	color: #000000;
+	margin-top: 25px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 56px;
+	font-size: 23px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.conteudointerno {
+	width:1000px;
+	margin:auto;
+}
+.outrosprodutos {
+	height:90px;
+	font-size:20px;
+	text-align:center;
+	line-height:90px;
+}
+.fotos img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.footer{
+	margin-top: 40px;
+	background-color:#3480c1;
+	height:20px;
+	text-align:center;
+	line-height:20px;
+	color:#FFFFFF;
+	font-size:10px;
+}

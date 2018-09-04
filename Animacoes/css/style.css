@@ -1,0 +1,49 @@
+body {
+	margin: 10px;
+	background-color: #EEE
+}
+@keyframes animacao1 {
+	0%{background-color:red;top:200px;left:200px;}
+	25%{background-color:yellow;top:200px;left:400px;}
+	50%{background-color:blue;top:400px;left:400px;}	
+	75%{background-color:purple;top:400px;left:200px;}
+	99%{background-color:gray;top:200px;left:200px;}
+}
+
+.exemplo1{
+
+	width:250px;
+	height:100px;
+	position: absolute;
+	background-color:#1af4;
+	animation-name:animacao1;
+	animation-duration:7s;
+	animation-iteration-count: 3;
+	border: auto;
+}
+.exemplo2 {
+	width: 100%;
+	max-width: 1000px;
+	height: 200px;
+	background-color: #cccccc;
+	margin: auto;
+}
+
+.teste {
+	width: 800px;
+	height: 200px;
+	margin: auto;
+	position: relative;
+	animation-name: teste;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes teste {
+	0% {background-image: url("foto1.png");}
+	
+	50% {background-image: url("foto2.png");}
+
+	100% {background-image: url("foto1.png");}
+}
